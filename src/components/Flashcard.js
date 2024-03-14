@@ -8,7 +8,7 @@ const Flashcard = () => {
 
   const fetchWord = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/words/random');
+      const response = await axios.get('https://aqueous-journey-72484-f2ed1ece4e5e.herokuapp.com/words/random');
       setWord(response.data.spanish);
       setTranslation(response.data.english);
       setShowTranslation(false); // Reset to show the new Spanish word first
