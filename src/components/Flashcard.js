@@ -27,7 +27,7 @@ const Flashcard = () => {
         onClick={() => setShowTranslation(!showTranslation)}
         style={{
           cursor: 'pointer',
-          fontSize: '8em',
+          fontSize: '6em',
           display: 'inline-block', // This ensures the text is only as wide as it needs to be
           margin: '0 auto',
           padding: '20px',
