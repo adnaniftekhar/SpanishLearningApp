@@ -7,7 +7,7 @@ function WordsList() {
   useEffect(() => {
     async function fetchWords() {
       try {
-        const response = await axios.get('http://localhost:5000/words');
+        const response = await axios.get('https://aqueous-journey-72484-f2ed1ece4e5e.herokuapp.com/words');
         setWords(response.data);
       } catch (error) {
         console.error("There was a problem fetching words:", error);
